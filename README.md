@@ -2,6 +2,7 @@
 
 This is a ScreenCloud plugin that can upload images to Zapier.
 
+![ScreenCloud Installed](http://zpr.io/22M.png)
 
 # Install
 
