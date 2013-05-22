@@ -31,7 +31,7 @@ function loadSettings()
     }
 
     ScreenCloud.setConfigured(configured);
-    ScreenCloud.setFilename("Screenshot at " + new Date().format("yyyy-mm-dd HH:MM:ss"));
+    ScreenCloud.setFilename("Screenshot at " + (new Date()).format("yyyy-mm-dd HH:MM:ss"));
 
 }
 function saveSettings()
