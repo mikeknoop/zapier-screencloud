@@ -82,7 +82,7 @@ function upload(screenshot)
     var ba = new QByteArray();
     var buffer = new QBuffer( ba );
     buffer.open(QIODevice.WriteOnly);
-    screenshot.save( buffer, format ); // writes image into ba
+    screenshot.save( buffer, "png" ); // writes image into ba
     buffer.close();
 
     var url = new QUrl(zapier_url);
