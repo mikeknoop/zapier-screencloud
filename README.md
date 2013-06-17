@@ -7,7 +7,9 @@ This is a ScreenCloud plugin that can upload images to Zapier.
 # Install
 
 1. Download and install ScreenCloud from http://screencloud.net/
-2. Download all the files in this repo into a folder called "zapier" inside your ScreenCloud plugins directory locally. Known paths:
+2. Run this on a command line:
+
+`git clone https://github.com/mikeknoop/zapier-screencloud.git ~/.local/share/data/screencloud/ScreenCloud/plugins/zapier`
 
 ## Ubuntu 13.04
 `~/.local/share/data/screencloud/ScreenCloud/plugins/`
