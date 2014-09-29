@@ -18,4 +18,4 @@ This is a ScreenCloud plugin that can upload images to Zapier.
 
 1. Clone this repo
 2. Create a new directory in ScreenCloud's plugin folder on your system. For Max OSX, it's `~/Library/Application\ Support/screencloud/ScreenCloud/plugins` (see [here](https://github.com/olav-st/screencloud/wiki/Plugin-Overview#the-plugin-folder) for others)
-3. Copy the files from this repo into that new dir and restart ScreenCloud. *Note: You will need to restart ScreenCloud each time you make a change!*
+3. Copy the files from this repo into that new dir and restart ScreenCloud. **Note: You need to restart ScreenCloud each time you make a change!**
