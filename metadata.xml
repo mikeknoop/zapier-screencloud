@@ -1,7 +1,7 @@
 <metadata>
-	<name>Zapier</name>
-	<shortname>zapier</shortname>
-	<className>ZapierUploader</className>
-	<icon>icon.png</icon>
-	<version>1.1</version>
+    <name>Zapier</name>
+    <shortname>zapier</shortname>
+    <className>ZapierUploader</className>
+    <icon>icon.png</icon>
+    <version>2.0</version>
 </metadata>
