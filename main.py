@@ -36,9 +36,9 @@ class ZapierUploader():
         q_buffer.close()
 
         json_data = json.dumps({'image': str(q_byte_array.toBase64())})
-        f = open('/tmp/zapier', 'w')
-        f.write("{}\n{}\n\n".format(self.zapier_url, json_data))
-        f.close()
+        #f = open('/tmp/zapier', 'w')
+        #f.write("{}\n{}\n\n".format(self.zapier_url, json_data))
+        #f.close()
         response = requests.post(url=self.zapier_url,
                                  data=json_data,
                                  headers={'Content-Type': 'application/json'})
